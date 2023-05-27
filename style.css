@@ -1,0 +1,125 @@
+*{
+    background: #F3F5FC; 
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 80%;
+    
+}
+
+
+
+.aluralogo{
+
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 5%;
+
+}
+
+main{
+
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.textoencriptar{
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    /* ESTA INSTRUCCION MODIFICA PARA QUE SOLO SE PUEDAN COLOCAR MINUSULAS*/
+
+    text-transform: lowercase;
+
+}
+
+::placeholder{
+    color: #0A3871;
+}
+
+/*ESTA CONDICION ELIMINA EL USO DEL CUADRO E TEXTO SI SE DA CLICK EN EL MISMO NO LO MUESTRA*/
+
+.textoencriptar:focus{
+    outline: none;
+}
+
+.textocopiar{
+    background: white;
+    background-image: url("imagenes/Muneco.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    text-transform: lowercase;
+    
+    
+}
+
+.textocopiar:focus{
+    outline: none;
+
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+
+}
+.btn-desencriptar{
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+
+}
+
+.btn-copiar{
+   
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 430px;    
+    position: absolute;
+    width: 328px;
+
+
+
+}
+.informacion{
+    color: #495057;
+    font-size: 18px;
+}
+
+
+
+
+footer{
+    text-align: center;
+    background: url(Imagenes/bg.jpg);
+    padding: 40px;
+
+
+
+}
