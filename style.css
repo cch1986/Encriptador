@@ -128,11 +128,33 @@ footer{
 
 @media screen and (max-width:480px){
 
- 
-    .main, .textoencriptar, .textocopiar, .botones {
-        width: auto;
+    .btn-encriptar{
+        height: 20px;
+        width: 150px;
+    
+    }
+    .btn-desencriptar{
+        height: 20px;
+        width: 150px;
+    
+    }
+    .btn-copiar{
+        height: 20px;
+        width: 150px;
 
     }
+
+    .botones{
+        display: inline-flex;
+        margin-top: 12px;
+        position: relative;
+      
+    }
+
+        
+        
+
+
     
     footer{
 
