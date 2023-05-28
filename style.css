@@ -123,3 +123,22 @@ footer{
 
 
 }
+
+
+
+@media screen and (max-width:480px){
+
+ 
+    .main, .textoencriptar, .textocopiar, .botones {
+        width: auto;
+
+    }
+    
+    footer{
+        
+        position: static;
+
+    }
+
+    
+}
